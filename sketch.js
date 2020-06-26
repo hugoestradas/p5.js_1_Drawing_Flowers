@@ -27,6 +27,7 @@ function draw() {
     var r = 200 * cos(k * a);
     var x = r * cos(a);
     var y = r * sin(a);
+    /var y = r * sin(a);
     vertex(x, y);
   }
   endShape(CLOSE);
